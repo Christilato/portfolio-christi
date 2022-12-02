@@ -1,5 +1,6 @@
 import React from "react";
 import Link from 'next/link';
+import Image from 'next/image';
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -19,7 +20,7 @@ function Contact() {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <img
+                <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src=""
                   alt="/"
@@ -29,8 +30,8 @@ function Contact() {
                 <h2 className="py-2"> Name here</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
-                  I'm available for freelance or full time positions. Contact me
-                  and lets talk
+                I am available for freelance or full-time positions. Contact
+                  me and let&apos;s talk.
                 </p>
               </div>
 

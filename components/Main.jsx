@@ -14,13 +14,13 @@ function Main() {
             LETS BUILD SOMETHING TOGETHER
           </p>
           <h1 className="py-4 text-white">
-            Hi, I'm <span className="text-[#92425d]"> Christi</span>
+            Hi, I&apos;m <span className="text-[#92425d]"> Christi</span>
           </h1>
           <h1 className="py-2 text-white">A Front End Developer</h1>
           <p className="py-4 text-white max-w-[70%] m-auto">
-            I'm a front-end web developer specializing in building &
+            I&apos;m a front-end web developer specializing in building &
             occasionally designing exceptional digital experiences. Graduated
-            from Northwestern's Coding Bootcamp
+            from Northwestern&apos;s Coding Bootcamp
           </p><div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/christilato/'

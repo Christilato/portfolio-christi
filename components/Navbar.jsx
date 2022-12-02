@@ -7,7 +7,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import {useRouter} from 'next/router';
 
-const navbar = () => {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#E1D3CB");
@@ -166,7 +166,7 @@ const navbar = () => {
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#92425d]">
-                Let's Connnect
+                Let&apos;s Connnect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a

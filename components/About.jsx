@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-white">Front-end Developer with strong buisness background. I took Northwestern University's Coding Bootcamp to enhance my knowledge with technology. The course has taken me above & beyond. </p>
+          <p className="py-2 text-white">Front-end Developer with strong buisness background. I took Northwestern Universitys Coding Bootcamp to enhance my knowledge with technology. The course has taken me above & beyond. </p>
           <p className="py-2 text-white"> I strive apply my new skills with my past busines experienes to my next position.  </p>
           <Link href="/#projects">
             <p className="py-2 text-[#92425d] underline cursor-pointer">
