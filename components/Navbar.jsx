@@ -1,15 +1,33 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, use } from "react";
 import Image from "next/image";
 import navLogo from "../public/assets/navLogo.png";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import {useRouter} from 'next/router';
 
 const navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#E1D3CB");
+  const [linkColor, setLinkColor] = useState('#1f2937');
+  const router = useRouter()
+
+  useEffect(() => {
+    if (
+      router.asPath === '/property'||
+      router.asPath === '/crypto' ||
+      router.asPath === '/netflix' ||
+      router.asPath === '/twitch' 
+    ) {
+      setNavBg('transparent')
+      setLinkColor('#E1D3CB')
+    } else {
+      setNavBg ('#E1D3CB')
+      setLinkColor('#1f2937')
+    }
+  })
 
   const handleNav = () => {
     setNav(!nav);
@@ -46,7 +64,7 @@ const navbar = () => {
           />
         </Link>
         <div>
-          <ul className="hidden md:flex">
+          <ul   className="hidden md:flex">
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/">Home</Link>
             </li>
@@ -90,12 +108,14 @@ const navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
+              <Link href='/'>
               <Image
                 src="/../public/assets/navLogo.png"
                 width="87"
                 height="35"
                 alt="/"
               />
+              </Link>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor pointer"

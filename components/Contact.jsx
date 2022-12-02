@@ -55,6 +55,10 @@ function Contact() {
                       <FaGithub />
                     </div>
                   </a>
+                    <a 
+                    href="mailto:christilato.com" 
+                    target='#'
+                    />
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
@@ -69,7 +73,11 @@ function Contact() {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+            <form
+                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                method='POST'
+                encType='multipart/form-data'
+              >
                 <div className="gird md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
