@@ -1,6 +1,6 @@
 import React, { useState, useEffect, use } from "react";
 import Image from "next/image";
-import navLogo from "../public/assets/navLogo.png";
+import navLogo from "../public/assets/CL.png";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
@@ -212,4 +212,4 @@ const Navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
