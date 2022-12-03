@@ -21,7 +21,8 @@ function Main() {
             I&apos;m a front-end web developer specializing in building &
             occasionally designing exceptional digital experiences. Graduated
             from Northwestern&apos;s Coding Bootcamp
-          </p><div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+          </p>
+          <div className='flex items-center justify-between max-w-[330px] m-auto py-4 text-[#92425d]'>
             <a
               href='https://www.linkedin.com/in/christilato/'
               target='_blank'

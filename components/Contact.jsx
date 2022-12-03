@@ -37,7 +37,7 @@ function Contact() {
 
               <div>
                 <p className="uppercase pt-8">Connect with me</p>
-                <div className="flex items-center justify-between py-4">
+                <div className="flex items-center justify-between py-4 text-[#92425d]">
                 <a
                     href='https://www.linkedin.com/in/christilato/'
                     target='_blank'
@@ -56,10 +56,7 @@ function Contact() {
                       <FaGithub />
                     </div>
                   </a>
-                    <a 
-                    href="mailto:christilato.com" 
-                    target='#'
-                    />
+                   
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                   </div>

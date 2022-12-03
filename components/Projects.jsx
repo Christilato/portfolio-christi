@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import propertyImg from "../public/assets/projects/property.jpg";
+import topBookImg from "../public/assets/projects/top-book.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 import cryptoImg from '../public/assets/projects/crypto.jpg';
@@ -17,27 +17,27 @@ function Projects() {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem 
-          title='PropertyFinder'
-          backgroundImg={propertyImg}
-          projectUrl= '/property'
+          title='TopBookGenerator'
+          backgroundImg={topBookImg}
+          projectUrl= '/book'
           tech='React JS'
           />
            <ProjectItem 
-          title='Crypto App'
+          title='GameofThronesCheatSheet'
           backgroundImg={cryptoImg}
-          projectUrl= '/property'
+          projectUrl= '/got'
           tech='React JS'
           />
            <ProjectItem 
-          title='PropertyFinder'
+          title='MarvelFanFictionCommunity'
           backgroundImg={netflixImg}
-          projectUrl= '/property'
+          projectUrl= '/fanFiction'
           tech='React JS'
           />
            <ProjectItem 
-          title='PropertyFinder'
+          title='WorkDayScheduler'
           backgroundImg={twitchImg}
-          projectUrl= '/property'
+          projectUrl= '/workDay'
           tech='React JS'
           />
         
