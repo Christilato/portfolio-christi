@@ -14,7 +14,17 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState("#E1D3CB");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
-
+  
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener("scroll", handleShadow);
+  });
   useEffect(() => {
     if (
       router.asPath === "/book" ||
@@ -34,16 +44,6 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  useEffect(() => {
-    const handleShadow = () => {
-      if (window.scrollY >= 90) {
-        setShadow(true);
-      } else {
-        setShadow(false);
-      }
-    };
-    window.addEventListener("scroll", handleShadow);
-  });
 
   return (
     <div

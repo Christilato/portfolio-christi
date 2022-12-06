@@ -28,7 +28,7 @@ const book = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        First Full Stack web application consisting of Javascript, HTML, & CSS. Main functionality revolves around local storage & Web API's. Our website creates a resource for people to search and read free E-books online filtered by genre, author, & title.
+                        First Full Stack web application consisting of Javascript, HTML, & CSS. Main functionality revolves around local storage & Web API&apos;s. Our website creates a resource for people to search and read free E-books online filtered by genre, author, & title.
                     </p>
                     <a
             href='https://github.com/terrencebudnik/top-book-generator'
