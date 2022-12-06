@@ -80,14 +80,14 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/tailwind.png"
-                  width="64"
-                  height="64"
+                  src="/../public/assets/skills/mysql.png"
+                  width="100"
+                  height= "100"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Tailwind</h3>
+                <h3>MySQL</h3>
               </div>
             </div>
           </div>
