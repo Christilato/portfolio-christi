@@ -5,29 +5,30 @@ import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import {useRouter} from 'next/router';
+import { useRouter } from "next/router";
+// import myResume from "../public/assets/resume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#E1D3CB");
-  const [linkColor, setLinkColor] = useState('#1f2937');
-  const router = useRouter()
+  const [linkColor, setLinkColor] = useState("#1f2937");
+  const router = useRouter();
 
   useEffect(() => {
     if (
-      router.asPath === '/book'||
-      router.asPath === '/got' ||
-      router.asPath === '/fanFiction' ||
-      router.asPath === '/workDay' 
+      router.asPath === "/book" ||
+      router.asPath === "/got" ||
+      router.asPath === "/fanFiction" ||
+      router.asPath === "/workDay"
     ) {
-      setNavBg('transparent')
-      setLinkColor('#E1D3CB')
+      setNavBg("transparent");
+      setLinkColor("#E1D3CB");
     } else {
-      setNavBg ('#E1D3CB')
-      setLinkColor('#1f2937')
+      setNavBg("#E1D3CB");
+      setLinkColor("#1f2937");
     }
-  })
+  });
 
   const handleNav = () => {
     setNav(!nav);
@@ -64,7 +65,7 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul   className="hidden md:flex">
+          <ul className="hidden md:flex">
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/">Home</Link>
             </li>
@@ -77,9 +78,7 @@ const Navbar = () => {
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#projects">Projects</Link>
             </li>
-            {/* <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/resume">Resume</Link>
-            </li> */}
+            <li className="ml-10 text-sm uppercase hover:border-b">Resume</li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#contact">Contact</Link>
             </li>
@@ -108,13 +107,13 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href='/'>
-              <Image
-                src="/../public/assets/CL.png"
-                width="87"
-                height="35"
-                alt="/"
-              />
+              <Link href="/">
+                <Image
+                  src="/../public/assets/CL.png"
+                  width="87"
+                  height="35"
+                  alt="/"
+                />
               </Link>
               <div
                 onClick={handleNav}
@@ -192,7 +191,7 @@ const Navbar = () => {
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   >
-                    <AiOutlineMail />
+                    <AiOutlineMail onClick={() => window.location = 'mailto:christilato@gmail.com'} />
                   </div>
                 </Link>
                 <Link href="/resume">
