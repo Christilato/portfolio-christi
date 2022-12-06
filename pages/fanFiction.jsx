@@ -1,7 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import Link from 'next/link';
-import topBookImg from "../public/assets/projects/top-book.png";
+import fanFictionImg from "../public/assets/projects/fan-fiction.png";
 import {RiRadioButtonFill} from 'react-icons/ri'
 
 const got = () => {
@@ -13,12 +13,12 @@ const got = () => {
                  className="absolute z-1" 
                  layout='fill' 
                  objectFit='cover' 
-                 src={topBookImg} 
+                 src={fanFictionImg} 
                  alt='/' 
                  />
                  <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                     <h2 className="py-2">Marvel Fan Fiction Community</h2>
-                    <h3 className="">React JS / Tailwind / Firebase</h3>
+                    <h3 className="">React JS / MERN / MongoDB</h3>
                 </div>
 
             </div>
@@ -28,17 +28,17 @@ const got = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        Little excertp about the project
+                    A Full Stack MERN application that utilizes MongoDB and Marvel API to allow users to create and read stories about their favorite Marvel characters. My team and I wanted to create a community based site that allows users to have their own profile & stories, which other users can view and comment on. 
                     </p>
                     <a
-            href='https://github.com/Christilato/fan-fiction'
+            href='https://github.com/hamzaramzanali/fan-fiction'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href=''
+            href='https://stark-sierra-05669.herokuapp.com/'
             target='_blank'
             rel='noreferrer'
           >
@@ -54,20 +54,20 @@ const got = () => {
                 <RiRadioButtonFill className='pr-1' /> React
               </p>
               <p className='text-white py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> MERN
               </p>
               <p className='text-white py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-white py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+                <RiRadioButtonFill className='pr-1' /> Marvel API
               </p>
-              <p className='text-white py-2 flex items-center'>
+              {/* <p className='text-white py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Google API
               </p>
               <p className='text-white py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Zillow API
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

@@ -1,11 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import topBookImg from "../public/assets/projects/top-book.png";
 import Link from "next/link";
-import ProjectItem from "./ProjectItem";
-import cryptoImg from '../public/assets/projects/crypto.jpg';
-import netflixImg from '../public/assets/projects/netflix.jpg';
-import twitchImg from '../public/assets/projects/twitch.jpg';
+import topBookImg from "../public/assets/projects/top-book.png";
+import gotImg from "../public/assets/projects/got.png";
+import fanFictionImg from "../public/assets/projects/fan-fiction.png";
+import workDayImg from "../public/assets/projects/work-day.png";
+import ProjectItem from './ProjectItem';
+
+
+
 
 function Projects() {
   return (
@@ -24,19 +27,19 @@ function Projects() {
           />
            <ProjectItem 
           title='GameofThronesCheatSheet'
-          backgroundImg={cryptoImg}
+          backgroundImg={gotImg}
           projectUrl= '/got'
           tech='React JS'
           />
            <ProjectItem 
           title='MarvelFanFictionCommunity'
-          backgroundImg={netflixImg}
+          backgroundImg={fanFictionImg}
           projectUrl= '/fanFiction'
           tech='React JS'
           />
            <ProjectItem 
           title='WorkDayScheduler'
-          backgroundImg={twitchImg}
+          backgroundImg={workDayImg}
           projectUrl= '/workDay'
           tech='React JS'
           />

@@ -18,7 +18,7 @@ const book = () => {
                  />
                  <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                     <h2 className="py-2">Book Generator</h2>
-                    <h3 className="">React JS / Tailwind / Firebase</h3>
+                    <h3 className="">HTML / CSS / Javascript</h3>
                 </div>
 
             </div>
@@ -28,17 +28,17 @@ const book = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        Little excertp about the project
+                        First Full Stack web application consisting of Javascript, HTML, & CSS. Main functionality revolves around local storage & Web API's. Our website creates a resource for people to search and read free E-books online filtered by genre, author, & title.
                     </p>
                     <a
-            href='https://github.com/Christilato/top-book-generator'
+            href='https://github.com/terrencebudnik/top-book-generator'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href=''
+            href='https://terrencebudnik.github.io/top-book-generator/'
             target='_blank'
             rel='noreferrer'
           >
@@ -51,23 +51,23 @@ const book = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-white py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> HTML
               </p>
               <p className='text-white py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> CSS
               </p>
               <p className='text-white py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-white py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+                <RiRadioButtonFill className='pr-1' /> Project Gutenberg Web API
               </p>
-              <p className='text-white py-2 flex items-center'>
+              {/* <p className='text-white py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Google API
               </p>
               <p className='text-white py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Zillow API
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
