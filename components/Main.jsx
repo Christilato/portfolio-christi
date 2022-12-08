@@ -16,11 +16,17 @@ function Main() {
           <h1 className="py-4 text-white">
             Hi, I&apos;m <span className="text-[#92425d]"> Christi</span>
           </h1>
-          <h1 className="py-2 text-white">A Front End Developer</h1>
+          <h1 className="py-2 text-white"> Front End Developer / Analyst</h1>
           <p className="py-4 text-white max-w-[70%] m-auto">
-            I&apos;m a front-end web developer specializing in building &
-            occasionally designing exceptional digital experiences. Graduated
-            from Northwestern&apos;s Coding Bootcamp
+          Front End Developer/ Business analyst with strong technological skills
+          enhanced through Northwestern University&apos;s Coding Bootcamp, where I
+          developed skills in Javascript, SQL, and more. Effective organization
+          skills, broad experience across multiple industries, products and
+          departments. Demonstrates success in business development through
+          rigorous analysis, creative problem-solving, and careful relationship
+          management. Experience operating as an individual contributor as well
+          as a strong team leader 
+            
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4 text-[#92425d]'>
             <a

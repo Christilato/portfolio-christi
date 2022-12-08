@@ -52,7 +52,7 @@ const resume = () => {
         <p>
           Front End Developer/ Business analyst with strong technological skills
           enhanced through Northwestern University&apos;s Coding Bootcamp, where I
-          developed skills in Javascript, SQL, and moreEffective organization
+          developed skills in Javascript, SQL, and more. Effective organization
           skills, broad experience across multiple industries, products and
           departments. Demonstrates success in business development through
           rigorous analysis, creative problem-solving, and careful relationship
