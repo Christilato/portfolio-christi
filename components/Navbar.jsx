@@ -44,6 +44,17 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  const onButtonClick = () => {
+    fetch("../public/resume.pdf").then(response => {
+      response.blob().then(blob => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink =document.createElement ('a');
+        alink.href = fileURL;
+        alink.download = 'resume.pdf';
+        alink.click();
+      })
+    })
+  }
 
   return (
     <div
@@ -78,7 +89,9 @@ const Navbar = () => {
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">Resume</li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+            <Link href="/resume">Resume</Link>
+            </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#contact">Contact</Link>
             </li>
@@ -152,7 +165,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
+              <Link href="/#resume">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
                 </li>
@@ -199,7 +212,7 @@ const Navbar = () => {
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   >
-                    <BsFillPersonLinesFill />
+                    <BsFillPersonLinesFill onClick={onButtonClick} />
                   </div>
                 </Link>
               </div>
