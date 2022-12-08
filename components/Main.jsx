@@ -8,7 +8,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 function Main() {
   return (
     <div id='home'className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-screen mx-auto p-2 flex justify-center items-center">
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-white">
             LETS BUILD SOMETHING TOGETHER
@@ -18,11 +18,9 @@ function Main() {
           </h1>
           <h1 className="py-2 text-white"> Front End Developer / Analyst</h1>
           <p className="py-4 text-white max-w-[70%] m-auto">
-          Front End Developer/ Business analyst with strong technological skills
+          Front End Developer/ analyst with strong technological skills
           enhanced through Northwestern University&apos;s Coding Bootcamp, where I
-          developed skills in Javascript, SQL, and more. Effective organization
-          skills, broad experience across multiple industries, products and
-          departments. Demonstrates success in business development through
+          developed skills in Javascript, SQL, and more. Demonstrates success in business development through
           rigorous analysis, creative problem-solving, and careful relationship
           management. Experience operating as an individual contributor as well
           as a strong team leader 
