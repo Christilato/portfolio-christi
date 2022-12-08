@@ -51,7 +51,7 @@ const resume = () => {
         </div>
         <p>
           Front End Developer/ Business analyst with strong technological skills
-          enhanced through Northwestern University’s Coding Bootcamp, where I
+          enhanced through Northwestern University&apos;s Coding Bootcamp, where I
           developed skills in Javascript, SQL, and moreEffective organization
           skills, broad experience across multiple industries, products and
           departments. Demonstrates success in business development through
@@ -194,7 +194,7 @@ const resume = () => {
             </li>
             <li>
               Reviewed & evaluated assortment plans with cross-functional teams
-              to ensure they buyer’s vision was in alignment with store targets
+              to ensure they buyer&apos;s vision was in alignment with store targets
             </li>
             <li>
               Collaborated with a group of interns by participating in a group

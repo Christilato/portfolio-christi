@@ -5,6 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import contactIcon from '../public/assets/typing.jpeg';
 
 
 function Contact() {
@@ -22,12 +23,12 @@ function Contact() {
               <div>
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src=""
+                  src={contactIcon}
                   alt="/"
                 />
               </div>
               <div>
-                <h2 className="py-2"> Name here</h2>
+                <h2 className="py-2">Christi Lato</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
                 I am available for freelance or full-time positions. Contact

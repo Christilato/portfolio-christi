@@ -44,17 +44,17 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  const onButtonClick = () => {
-    fetch("../public/resume.pdf").then(response => {
-      response.blob().then(blob => {
-        const fileURL = window.URL.createObjectURL(blob);
-        let alink =document.createElement ('a');
-        alink.href = fileURL;
-        alink.download = 'resume.pdf';
-        alink.click();
-      })
-    })
-  }
+  // const onButtonClick = () => {
+  //   fetch("../public/resume.pdf").then(response => {
+  //     response.blob().then(blob => {
+  //       const fileURL = window.URL.createObjectURL(blob);
+  //       let alink =document.createElement ('a');
+  //       alink.href = fileURL;
+  //       alink.download = 'resume.pdf';
+  //       alink.click();
+  //     })
+  //   })
+  // }
 
   return (
     <div
@@ -122,7 +122,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <Image
-                  src="/../public/assets/CL.png"
+                  src={navLogo}
                   width="87"
                   height="35"
                   alt="/"
@@ -165,7 +165,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/#resume">
+              <Link href="/resume">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
                 </li>
@@ -212,7 +212,7 @@ const Navbar = () => {
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   >
-                    <BsFillPersonLinesFill onClick={onButtonClick} />
+                    <BsFillPersonLinesFill />
                   </div>
                 </Link>
               </div>
