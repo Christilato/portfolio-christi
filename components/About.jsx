@@ -12,9 +12,9 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-white">Front-end Developer with strong buisness background. I took Northwestern University&apos;s Coding Bootcamp to enhance my knowledge with technology. The course has taken me above & beyond, enhancing my skills in HTML, CSS, Javascript, SQL, MongoDB, & much more.  </p>
+          <p className="py-2 text-white">Front-End Web Developer with strong buisness background. I recently took Northwestern University&apos;s Coding Bootcamp to enhance my knowledge with technology. The course has taken me above & beyond, enhancing my skills in HTML, CSS, Javascript, SQL, MongoDB, React & much more.  </p>
           <p className="py-2 text-white"> In 3 months I have been able to work on numerous projects, solo & collaboratively to enhance my web developemt. I hope to utilize my new skills and my creative mind to be an advantage for my next employer. As my dedicated, hardworking, and eager self there is never a problem I will not attempt to solve. After taking this coding bootcamp, I am only more ready to keep learning and growing.</p>
-          <p className="py-2 text-white"> I strive apply my new skills with my past busines experienes to my next position.  </p>
+          <p className="py-2 text-white"> I have always had a passion for creation & design. I recieved a B.S. in Apparel Merchandising from Indiana University in 2019. From an internship at Calvin Klein to a full time job at a Jewelry Company in Chicago, design and creativity has always surrounded me. It has always sparked something inside of me. I am excited to open a new door of opportunity tech world.   </p>
           <Link href="/#projects">
             <p className="py-2 text-[#92425d] underline cursor-pointer">
               Check out some of my latest projects.
