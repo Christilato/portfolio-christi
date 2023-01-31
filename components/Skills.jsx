@@ -8,6 +8,8 @@ import sqlImg from "../public/assets/skills/sql-server.png";
 import mongoImg from "../public/assets/skills/mongo.png";
 import githubImg from "../public/assets/skills/github1.png";
 import nodeImg from "../public/assets/skills/node.png";
+import javaImg from "../public/assets/skills/java1.png";
+
 
 function Skills() {
   return (
@@ -87,10 +89,10 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={githubImg} width="64" height="64" alt="/" />
+                <Image src={javaImg} width="40" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Github</h3>
+                <h3>Java</h3>
               </div>
             </div>
           </div>
